@@ -14,6 +14,7 @@ public class Calculator {
             System.out.println("2. Substraction");
             System.out.println("3. Multiplication");
             System.out.println("4. Division");
+            System.out.println("5. Exit");
 
             Scanner sc = new Scanner(System.in);
             int choice = sc .nextInt();
@@ -37,7 +38,8 @@ public class Calculator {
                     System.out.println("Division is selected");
                     System.out.println(a/b);
                     break;
-
+                case 5 :
+                    System.exit(0);
 
 
             }
